@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1dace0;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 80px;
+  }
+  
+  div#header-fixed
+  {
+      position: fixed;            /* ヘッダーの固定 */
+      top: 0px;                   /* 位置(上0px) */
+      left: 0px;                  /* 位置(右0px) */
+      width: 100%;                /* 横幅100%　*/
+      height: 65px;              /* 縦幅140px */
+  }
+   
+   
+  div#header-bk { 
+      background-color:#212235;
+      opacity: 0.7;     /* 背景色(黒) */       /* 上10px、下20pxをあける */
+    height:65px;              /* 縦の高さ110px */
+    width:100%;                /* 横の幅を100% */
+  }
+  
+  .header-right {
+      display: flex;
+      align-items: center;
+    }
+  
+  .top{
+    margin: 20px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left img {
+    height: 60px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+
+.top{
+  margin: 20px;
+}
+
+.selfHP{
+  margin: 29px;
+}
+
+.member{
+  margin: 20px;
+}
+
+.pic{
+  margin: 20px;
+}
+
+.other{
+  margin: 20px;
+}
+  
+  .header-right div:first-child {
+    margin-right: 20px;
+  }
+  /* headerここまで */
+ 
+  /* welcome */
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/Image\ from\ iOS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    margin: 70px 0px 0px 0px;
+  }
+  
+  .title{
+    font-size: 80px;
+  }
+  
+  .guideline {
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .guideline li {
+    margin-top: 16px;
+  }
+  
+  .guideline li:first-child {
+    margin-top: 0px;
+  }
+  /* welcomeここまで */
+  
+  /* programming, English共通 */
+  .programming,
+  .english {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .curriculum-img {
+    height: 400px;
+  }
+  
+  .text-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+  }
+  
+  .programming .title,
+  .english .title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    line-height: 32px;
+    font-size: 22px;
+  }
+  /* programming, English共通ここまで */
+  
+  /* footer */
+  .footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #233f51;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  /* footerここまで */

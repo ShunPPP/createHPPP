@@ -1,0 +1,279 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1dace0;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 80px;
+}
+
+div#header-fixed
+{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 65px;              /* 縦幅140px */
+}
+ 
+ 
+div#header-bk { 
+    background-color:#212235;
+    opacity: 0.7;     /* 背景色(黒) */       /* 上10px、下20pxをあける */
+  height:65px;              /* 縦の高さ110px */
+  width:100%;                /* 横の幅を100% */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+  }
+
+.top{
+  margin: 20px;
+}
+  
+.header-left {
+    display: flex;
+    align-items: center;
+}
+  
+.header-left img {
+    height: 60px;
+}
+  
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    margin: 20px;
+  }
+  
+  .selfHP{
+    margin: 29px;
+  }
+  
+  .member{
+    margin: 20px;
+  }
+  
+  .pic{
+    margin: 20px;
+  }
+  
+  .other{
+    margin: 20px;
+  }
+  
+.header-right div:first-child {
+    margin-right: 20px;
+}
+
+.memintro{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.image1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 0px 50px;
+}
+
+.image1 img{
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.image1 img {
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.image1 > dd {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 575px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+  }
+
+  
+
+
+
+  
+  .image1 dd + dd {
+    border-top: none;
+  }
+
+.img1{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin: 10px 5px;
+}
+
+
+.image2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.image2 img{
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.image2 img {
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.image2 > dd {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 575px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .image2 dd + dd {
+    border-top: none;
+  }
+
+.img2{
+    display: flex;
+    flex-direction: column;
+}
+
+.image3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.image3 img{
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.image3 img {
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.image3 > dd {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 575px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .image3 dd + dd {
+    border-top: none;
+  }
+
+.img3{
+    display: flex;
+    flex-direction: column;
+}
+
+.image4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.image4 img{
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.image4 img {
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.image4 > dd {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 575px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .image4 dd + dd {
+    border-top: none;
+  }
+
+.img4{
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox{
+  
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.textbox .name{
+    display: flex;
+    align-items: center;
+    font-family: century;
+    font-size: 25px;
+}
+
+
